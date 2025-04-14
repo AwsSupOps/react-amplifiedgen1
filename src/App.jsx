@@ -34,7 +34,7 @@ console.log("TEST_SECRET:", process.env.NODE_ENV.REACT_APP_TEST_SECRET);
         </p>
         <h1>Environment Secret</h1>
         
-        <small>You are running this application in <b>{process.env.NODE_ENV}</b> mode.</small>
+        <small>You are running this application in <b>{process.env.REACT_APP_TEST_VARIABLE}</b> mode.</small>
   
       </div>
       <p className="read-the-docs">
