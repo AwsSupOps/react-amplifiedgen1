@@ -8,7 +8,7 @@ function App() {
   //const apiKey = process.env.REACT_APP_API_KEY;
   const secrets = JSON.parse(process.env.secrets);
   
-  console.log("API Key:", secrets); // Log the API Key before returning the JSX
+ // console.log("API Key:", secrets); // Log the API Key before returning the JSX
   return (
     <>
       <div>
@@ -28,7 +28,6 @@ function App() {
           Edit <code>src/App.jsx</code> and save to test
         </p>
         <h1>Environment Secret</h1>
-  
   
       </div>
       <p className="read-the-docs">
