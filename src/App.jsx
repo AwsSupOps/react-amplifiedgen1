@@ -28,7 +28,7 @@ function App() {
           Edit <code>src/App.jsx</code> and save to test
         </p>
         <h1>Environment Secret</h1>
-        <p>API Key: {secrets}</p>  
+        <p>API Key: {secrets}</p> 
   
       </div>
       <p className="read-the-docs">
