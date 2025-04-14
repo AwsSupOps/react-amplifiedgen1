@@ -10,7 +10,7 @@ frontend:
         - "echo '##############'"     
         #- echo "Secrets=$secrets" >> .env
         #- echo "REACT_APP_TEST_SECRET=$REACT_APP_TEST_SECRET" >> .env
-        - echo "Secrets (raw): $secrets"
+        - echo "Secrets (raw): $secrets" >> .env
        # - if [ "${AWS_BRANCH}" = "master" ]; then echo "master branch"; fi
 
         #- export MY_SECRET=$(aws ssm get-parameter --name "/amplify/dsnncjaqql6ik/master")
