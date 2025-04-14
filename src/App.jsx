@@ -5,7 +5,8 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
-  const apiKey = process.env.REACT_APP_API_KEY;
+  //const apiKey = process.env.REACT_APP_API_KEY;
+  const secrets = JSON.parse(process.env.secrets);
   return (
     <>
       <div>
