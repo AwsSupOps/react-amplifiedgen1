@@ -9,6 +9,9 @@ function App() {
   //const secrets = JSON.parse(process.env.secrets);
   
  // console.log("API Key:", secrets); // Log the API Key before returning the JSX
+ 
+ console.log('REACT_APP_TEST_VARIABLE', process.env.secrets);
+ 
   return (
     <>
       <div>
