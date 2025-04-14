@@ -3,6 +3,9 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
+require('dotenv').config();
+
+
 function App() {
   const [count, setCount] = useState(0)
   //const apiKey = process.env.REACT_APP_API_KEY;
@@ -10,8 +13,8 @@ function App() {
   
  // console.log("API Key:", secrets); // Log the API Key before returning the JSX
  
-//console.log("TEST_VARIABLE:", process.env.REACT_APP_TEST_VARIABLE);
-console.log("TEST_VARIABLE:",import.meta.env.REACT_APP_TEST_VARIABLE) // "123"
+console.log("TEST_VARIABLE:", process.env.REACT_APP_TEST_VARIABLE);
+//console.log("TEST_VARIABLE:",import.meta.env.REACT_APP_TEST_VARIABLE) // "123"
 console.log("TEST_SECRET:", process.env.NODE_ENV.REACT_APP_TEST_SECRET);
 
   return (
