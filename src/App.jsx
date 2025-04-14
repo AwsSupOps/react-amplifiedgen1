@@ -33,6 +33,8 @@ console.log("TEST_SECRET:", process.env.NODE_ENV.REACT_APP_TEST_SECRET);
           Edit <code>src/App.jsx</code> and save to test
         </p>
         <h1>Environment Secret</h1>
+        
+        <small>You are running this application in <b>{process.env.NODE_ENV}</b> mode.</small>
   
       </div>
       <p className="read-the-docs">
