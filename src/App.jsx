@@ -7,6 +7,8 @@ function App() {
   const [count, setCount] = useState(0)
   //const apiKey = process.env.REACT_APP_API_KEY;
   const secrets = JSON.parse(process.env.secrets);
+  
+  console.log("API Key:", secrets); // Log the API Key before returning the JSX
   return (
     <>
       <div>
@@ -26,7 +28,7 @@ function App() {
           Edit <code>src/App.jsx</code> and save to test
         </p>
         <h1>Environment Secret</h1>
-        <p>API Key: {apiKey}</p> 
+        <p>API Key: {secrets}</p> 
   
       </div>
       <p className="read-the-docs">
