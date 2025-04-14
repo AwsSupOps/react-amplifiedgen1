@@ -6,11 +6,11 @@ import './App.css'
 function App() {
   const [count, setCount] = useState(0)
   //const apiKey = process.env.REACT_APP_API_KEY;
-  const secrets = JSON.parse(process.env.secrets);
+  //const secrets = JSON.parse(process.env.secrets);
   
  // console.log("API Key:", secrets); // Log the API Key before returning the JSX
  
- console.log('REACT_APP_TEST_VARIABLE', secrets);
+ console.log('REACT_APP_TEST_VARIABLE', process.env.REACT_APP_TEST_VARIABLE);
  
   return (
     <>
