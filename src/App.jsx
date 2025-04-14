@@ -11,6 +11,9 @@ function App() {
  // console.log("API Key:", secrets); // Log the API Key before returning the JSX
  
  console.log('REACT_APP_TEST_VARIABLE', process.env.REACT_APP_TEST_VARIABLE); 
+ 
+ 
+ 
      
   return (
     <>
