@@ -5,7 +5,7 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
-
+  const apiKey = process.env.REACT_APP_API_KEY;
   return (
     <>
       <div>
@@ -25,9 +25,8 @@ function App() {
           Edit <code>src/App.jsx</code> and save to test
         </p>
         <h1>Environment Secret</h1>
-        
-        
-        
+        <p>API Key: {apiKey}</p>
+  
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
