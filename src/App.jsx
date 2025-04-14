@@ -12,7 +12,7 @@ function App() {
  
  console.log('REACT_APP_TEST_VARIABLE', process.env.REACT_APP_TEST_VARIABLE); 
  
- 
+
   return (
     <>
       <div>
