@@ -22,8 +22,11 @@ function App() {
           count is {count}
         </button>
         <p>
-          Edit <code>src/App.jsx</code> and save to test HMR adfa
+          Edit <code>src/App.jsx</code> and save to test
         </p>
+        <h1>Environment Secret</h1>
+        
+        
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
