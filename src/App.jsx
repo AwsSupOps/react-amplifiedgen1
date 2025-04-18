@@ -58,6 +58,9 @@ function App() {
     };
 
     fetchSecrets();
+    
+    console.log("Secret_key:", import.meta.env.VITE_AWS_ACCESS_KEY_ID);
+    console.log("Secret_key2:", import.meta.env.VITE_AWS_SECRET_ACCESS_KEY);
   }, []);
 
   return (
