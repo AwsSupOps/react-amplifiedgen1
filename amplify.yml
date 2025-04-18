@@ -9,7 +9,7 @@ frontend:
         - echo "VITE_API_KEY=$VITE_API_KEY" >> .env
         - "echo '##############'"     
         #- echo "Secrets=$secrets" >> .env
-        #- echo "REACT_APP_TEST_SECRET=$REACT_APP_TEST_SECRET" >> .env
+        - echo "VITE_API_SECRET=$VITE_API_SECRET" >> .env
        # - if [ "${AWS_BRANCH}" = "master" ]; then echo "master branch"; fi
 
         #- export MY_SECRET=$(aws ssm get-parameter --name "/amplify/dsnncjaqql6ik/master")
