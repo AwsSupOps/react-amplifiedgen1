@@ -10,6 +10,7 @@ function App() {
 //console.log("TEST_VARIABLE:", process.env.REACT_APP_TEST_VARIABLE);
 //console.log("TEST_VARIABLE:",import.meta.env.REACT_APP_TEST_VARIABLE) // "123"
 //console.log("TEST_SECRET:", process.env.NODE_ENV.REACT_APP_TEST_SECRET);
+console.log("TEST_VARIABLE:",import.meta.env.REACT_APP_TEST_VARIABLE)
 
   return (
     <>
