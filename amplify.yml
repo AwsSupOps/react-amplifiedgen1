@@ -12,8 +12,8 @@ frontend:
         - echo "VITE_API_SECRET=$VITE_API_SECRET" >> .env
         
         - "echo '***************'" 
-        
-        - echo "DEBUG: $VITE_API_SECRET"
+        - "echo 'VITE_API_SECRET=my_secret_value' >> .env"
+        #- echo "DEBUG: $VITE_API_SECRET"
 
        # - if [ "${AWS_BRANCH}" = "master" ]; then echo "master branch"; fi
 
