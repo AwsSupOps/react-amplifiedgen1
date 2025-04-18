@@ -8,14 +8,11 @@ require('dotenv').config();
 
 function App() {
   const [count, setCount] = useState(0)
-  //const apiKey = process.env.REACT_APP_API_KEY;
-  //const secrets = JSON.parse(process.env.secrets);
   
- // console.log("API Key:", secrets); // Log the API Key before returning the JSX
- 
-console.log("TEST_VARIABLE:", process.env.REACT_APP_TEST_VARIABLE);
+
+//console.log("TEST_VARIABLE:", process.env.REACT_APP_TEST_VARIABLE);
 //console.log("TEST_VARIABLE:",import.meta.env.REACT_APP_TEST_VARIABLE) // "123"
-console.log("TEST_SECRET:", process.env.NODE_ENV.REACT_APP_TEST_SECRET);
+//console.log("TEST_SECRET:", process.env.NODE_ENV.REACT_APP_TEST_SECRET);
 
   return (
     <>
@@ -28,7 +25,7 @@ console.log("TEST_SECRET:", process.env.NODE_ENV.REACT_APP_TEST_SECRET);
         </a>
       </div>
       <h1>Vite + React</h1>
-      <div className="card">
+       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
@@ -36,9 +33,7 @@ console.log("TEST_SECRET:", process.env.NODE_ENV.REACT_APP_TEST_SECRET);
           Edit <code>src/App.jsx</code> and save to test
         </p>
         <h1>Environment Secret</h1>
-        
-        <small>You are running this application in <b>{process.env.REACT_APP_TEST_VARIABLE}</b> mode.</small>
-  
+      
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
