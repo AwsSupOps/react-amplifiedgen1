@@ -6,7 +6,7 @@ frontend:
         - npm ci --cache .npm --prefer-offline
        # - "echo 'API Key: $REACT_APP_API_KEY'"
        # - "echo 'Secrets: $secrets'"
-        - echo "REACT_APP_TEST_VARIABLE=$REACT_APP_TEST_VARIABLE" >> .env
+        - echo "VITE_API_KEY=$VITE_API_KEY" >> .env
         - "echo '##############'"     
         #- echo "Secrets=$secrets" >> .env
         #- echo "REACT_APP_TEST_SECRET=$REACT_APP_TEST_SECRET" >> .env
