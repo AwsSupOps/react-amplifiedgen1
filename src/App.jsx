@@ -12,6 +12,7 @@ function App() {
 //console.log("TEST_SECRET:", process.env.NODE_ENV.REACT_APP_TEST_SECRET);
 console.log("TEST_VARIABLE:",import.meta.env.VITE_API_KEY);
 console.log("Secret_key:", import.meta.env.VITE_API_SECRET);
+console.log("Secret_key2:", import.meta.env.AWS_SECRET_ACCESS_KEY);
 
   return (
     <>

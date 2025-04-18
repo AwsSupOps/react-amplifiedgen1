@@ -8,12 +8,8 @@ frontend:
        # - "echo 'Secrets: $secrets'"
         - echo "VITE_API_KEY=$VITE_API_KEY" >> .env
         - "echo '##############'"     
-        #- echo "Secrets=$secrets" >> .env
         - echo "VITE_API_SECRET=$VITE_API_SECRET" >> .env
-        
-        - "echo '***************'" 
-        
-        - echo "DEBUG:$VITE_API_SECRET"
+      
 
        # - if [ "${AWS_BRANCH}" = "master" ]; then echo "master branch"; fi
 
